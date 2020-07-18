@@ -1,0 +1,38 @@
+header{
+	color: white;
+	background-color:#0B0E70;
+	display: flex;
+	justify-content: space-between;
+
+}
+#nav{
+	margin-top: 40px;
+}
+body{
+	
+	background-color:#A0EFF9;
+	
+}
+img{
+
+	width: 80%;
+	height:80%;
+	border-radius: 9%;
+}
+#main{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+
+}
+.side{
+	width: 30%;
+	height:500px;
+	border-radius: 9%;
+}
+footer{
+	color: white;
+	background-color:#0B0E70;
+	display: flex;
+	justify-content: space-around; 
+}

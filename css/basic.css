@@ -1,0 +1,114 @@
+body{
+	background-color: blue;
+}
+#header{
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 4%;
+}
+#header>img{height: 7%; width: 7%; border-radius: 5%;}
+#nav{
+	border:2px solid green;
+    background-color: green;
+    height: 5%;
+    margin-right: 2%;
+    width: 5%;
+    border-radius: 4%;
+    text-align: center;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+#main{
+	border: 2px solid yellow;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 10%;
+	padding: 2%
+	margin:2%;
+	background-color: white;
+	height: 80;
+
+}
+#article{
+	border: 2px solid purple;
+	display: flex;
+	justify-content: space-around;
+	margin:2%;
+	border-radius: 5%;
+
+	
+}
+.side{
+	text-align: center;
+	width: 2%;
+	border-radius: 5%;
+}
+video{
+	width:96%;
+	height: 75%;
+	box-shadow: 2px 2px 2px 2px black;
+}
+.section{
+	 border: 2px solid brown;
+	 text-align: center;
+	 border-radius: 4%;
+	 box-shadow: 2px 2px 2px 2px black;
+	 width: 30%
+	 margin:2%;
+}
+img{
+	height: 90%;
+	width: 90%;
+	margin:1%;
+}
+#footer{
+	border: 2px solid pink;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+}
+p
+/* mobile view*/
+@media screen and (min-width: 320px) and (max-width: 680px){
+	body{
+		background-color: red;
+	}
+#header{
+	display: inline-block;
+	width: 96%;
+	text-align: center;
+}
+#main{
+	display: inline-block;
+	text-align: center;
+}
+.side{
+	width: 96%;
+}
+#article{
+	width: 96%;
+}
+.section{
+	width: 80%;
+}
+#header>img{
+	width: 10%;
+	height:10%;
+}
+#nav{
+	width: 90%;
+	height:20%;
+}
+a{
+	color: white;/*need to test*/
+	background-color: white;
+}
+p{
+	font-size: 25px;
+}
+} 
